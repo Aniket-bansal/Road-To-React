@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+   
+}
+#navbar{
+    border: none;
+    width: 100%;
+    height: 30px;
+    justify-content: flex-end;
+    display: flex;
+    gap: 20px;
+    padding-top: 11px;
+    background-color: #282C34;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+#navbar>#image{
+    /* border: 1px solid red; */
+    margin-top: -6px;
+    /* margin-right: 450px; */
+    height: 30px;
+   
+}
+#navbar>h1{
+    margin-right: 70%;
+    margin-top: -13px;
+    color: white;
+   
+
+}
+#image>img{
+    height: 100%;
+    
+}
+#navbar>#a>a{
+    text-decoration: none;
+   
+    color: white;
+     
+}
+#navbar>#b>a{
+    margin-right: 10px;
+    color: white;
+
+    text-decoration: none;
+}
